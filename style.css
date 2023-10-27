@@ -1,20 +1,41 @@
 body {
   background-image: url(main.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 10vh;
 }
 
 .title {
   text-align: center;
   line-height: 30px;
 }
-
+.name {
+  text-align: center;
+  font-size: 10vmin;
+}
+.Ename {
+  text-align: center;
+  font-size: 5vmin;
+}
 .content-container {
   text-align: center;
   line-height: 30px;
 }
 
 .portfolio__profile__links {
+  color: black;
   display: flex;
   justify-content: space-around;
+  padding: 6rem;
+}
+
+h1 {
+  color: red;
+}
+
+.black-box {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 20rem;
+  margin: 30rem;
 }
